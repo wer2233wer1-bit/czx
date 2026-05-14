@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Верхняя панель */
+
+.navbar{
+    background: #003366;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: lightgray;
+}
+
+/* Главный блок */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px 40px;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.hero-text p{
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.hero-text button{
+    margin-top: 25px;
+
+    padding: 15px 30px;
+    border: none;
+
+    background: #003366;
+    color: white;
+
+    font-size: 18px;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.hero-text button:hover{
+    background: #0055aa;
+}
+
+/* Фото */
+
+.hero-image img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+/* Специальности */
+
+.specialties{
+    padding: 60px 40px;
+}
+
+.specialties h2{
+    text-align: center;
+    font-size: 40px;
+    color: #003366;
+
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    width: 280px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color: #003366;
+}
+
+/* Подвал */
+
+.footer{
+    background: #003366;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+    margin-top: 40px;
+}
